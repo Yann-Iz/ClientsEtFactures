@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Client
 {
+	String nomClient;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
@@ -12,6 +13,7 @@ public class Client
 	
 	public Client(String nom)
 	{
+		nomClient = nom;
 	}
 
 	/**
@@ -21,7 +23,7 @@ public class Client
 	
 	public String getNom()
 	{
-		return null;
+		return nomClient;
 	}
 	
 	/**
@@ -31,6 +33,7 @@ public class Client
 	
 	public void setNom(String nom)
 	{
+		nomClient = nom;
 	}
 	
 	/**
