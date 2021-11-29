@@ -7,7 +7,7 @@ public class Client
 {
 	String nomClient;
 	private List<Facture> factures = new ArrayList<Facture>();
-	private static List<Client> clients = new ArrayList<>();
+	private static List<Client> clients = new ArrayList<Client>();
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
