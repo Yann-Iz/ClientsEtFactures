@@ -16,6 +16,7 @@ public class Client
 	public Client(String nom)
 	{
 		nomClient = nom;
+		clients.add(this);
 	}
 
 	/**
