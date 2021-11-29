@@ -71,7 +71,7 @@ public class Client
 	public int sommeMontants()
 	{
 		int montant=0;
-		for(int i = 0;i>factures.size();i++)
+		for(int i = 0;i<factures.size();i++)
 		{
 		montant=montant+factures.get(i).getMontant();
 		}
