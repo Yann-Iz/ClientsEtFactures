@@ -6,7 +6,7 @@ import java.util.List;
 public class Client
 {
 	String nomClient;
-	/**List<Facture> factures = new List();
+	private List<Facture> factures = new ArrayList<Facture>();
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
