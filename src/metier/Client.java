@@ -87,7 +87,9 @@ public class Client
 	
 	public Facture createFacture(int montant, boolean reglee)
 	{
-		return null;
+		Facture facture = new Facture(montant, this);
+		factures.add(facture);
+		return facture;
 	}	
 	
 	/**
